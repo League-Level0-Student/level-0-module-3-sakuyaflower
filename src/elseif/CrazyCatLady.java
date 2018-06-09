@@ -18,9 +18,9 @@ int cat = Integer.parseInt(answer);
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
 showMessageDialog(null,"YOU HAVE TOO MANY CATS. YOU ARE A CRAZY CAT LADY!!!!");
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
-playVideo(String videoURL);
+playVideo("https://www.youtube.com/results?search_query=cat+videos");
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-		
+		playVideo("https://www.youtube.com/results?search_query=frog+sitting+on+a+bench+like+a+human");
 	}
 
 	private static void showMessageDialog(Object object, String string) {
