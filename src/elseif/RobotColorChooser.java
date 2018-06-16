@@ -39,7 +39,7 @@ public class RobotColorChooser {
 		//4. Set the pen width to 10
 		Bob.setPenWidth(10);
 	    //2. Make the robot draw a shape (this will take more than one line of code)
-		for(int i=0; i<360;i++) {
+		//for(int i =0; i<360;i++) {
 			Bob.move(5);
 			Bob.turn(5);
 		}
